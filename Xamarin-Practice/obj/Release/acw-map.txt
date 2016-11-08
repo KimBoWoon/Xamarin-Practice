@@ -1,0 +1,4 @@
+Xamarin_Practice.MainActivity, Xamarin-Practice;md51afdbe756b42c48b9c044d6947145eef.MainActivity
+Xamarin_Practice.MainActivity, Xamarin-Practice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51afdbe756b42c48b9c044d6947145eef.MainActivity
+Xamarin_Practice.MainActivity;md51afdbe756b42c48b9c044d6947145eef.MainActivity
+xamarin_practice.MainActivity;md51afdbe756b42c48b9c044d6947145eef.MainActivity

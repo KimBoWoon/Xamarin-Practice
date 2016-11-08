@@ -1,0 +1,2 @@
+android.app.Application
+Xamarin_Practice.Xamarin_Practice
