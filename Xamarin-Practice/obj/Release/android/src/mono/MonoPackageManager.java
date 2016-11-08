@@ -99,6 +99,19 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Xamarin-Practice.dll" comes first in this list. */
 		"Xamarin-Practice.dll",
+		"FormsViewGroup.dll",
+		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
+		"Xamarin.Android.Support.Design.dll",
+		"Xamarin.Android.Support.v4.dll",
+		"Xamarin.Android.Support.v7.AppCompat.dll",
+		"Xamarin.Android.Support.v7.CardView.dll",
+		"Xamarin.Android.Support.v7.MediaRouter.dll",
+		"Xamarin.Android.Support.v7.RecyclerView.dll",
+		"Xamarin.Android.Support.Vector.Drawable.dll",
+		"Xamarin.Forms.Core.dll",
+		"Xamarin.Forms.Platform.Android.dll",
+		"Xamarin.Forms.Platform.dll",
+		"Xamarin.Forms.Xaml.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
