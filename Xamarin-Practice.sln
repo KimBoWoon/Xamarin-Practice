@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin-Practice", "Xamarin-Practice\Xamarin-Practice.csproj", "{4BDE2E19-FD92-483F-A097-AB3F18F5B0DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin-Calculator", "Xamarin-Calculator\Xamarin-Calculator.csproj", "{3F1478AA-CE70-4D2B-9870-7ADDEE7435EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4BDE2E19-FD92-483F-A097-AB3F18F5B0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4BDE2E19-FD92-483F-A097-AB3F18F5B0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4BDE2E19-FD92-483F-A097-AB3F18F5B0DE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{4BDE2E19-FD92-483F-A097-AB3F18F5B0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4BDE2E19-FD92-483F-A097-AB3F18F5B0DE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4BDE2E19-FD92-483F-A097-AB3F18F5B0DE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3F1478AA-CE70-4D2B-9870-7ADDEE7435EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1478AA-CE70-4D2B-9870-7ADDEE7435EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1478AA-CE70-4D2B-9870-7ADDEE7435EA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3F1478AA-CE70-4D2B-9870-7ADDEE7435EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1478AA-CE70-4D2B-9870-7ADDEE7435EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1478AA-CE70-4D2B-9870-7ADDEE7435EA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
