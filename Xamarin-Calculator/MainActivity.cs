@@ -9,6 +9,7 @@ namespace Xamarin_Calculator
     public class MainActivity : Activity
     {
         private EditText val1_edit;
+        private EditText val2_edit;
         private Button result_sum;
         private TextView sum_result;
 
@@ -25,6 +26,7 @@ namespace Xamarin_Calculator
         private void initView()
         {
             val1_edit = (EditText)FindViewById(Resource.Id.main_val1_edit);
+            val2_edit = (EditText)FindViewById(Resource.Id.main_val2_edit);
             result_sum = (Button)FindViewById(Resource.Id.main_result_btn);
             sum_result = (TextView)FindViewById(Resource.Id.main_result_text);
 
@@ -33,7 +35,10 @@ namespace Xamarin_Calculator
 
         private void sumButtonClicked(object o, EventArgs e)
         {
-            sum_result.Text = "3";
+            int val1 = Int32.Parse(val1_edit.Text);
+            int val2 = Int32.Parse(val2_edit.Text);
+
+            sum_result.Text = String.Format("Result : {0}", val1 + val2);
         }
     }
 }
