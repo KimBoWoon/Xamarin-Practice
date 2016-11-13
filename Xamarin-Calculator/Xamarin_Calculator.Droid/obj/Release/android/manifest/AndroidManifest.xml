@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="Xamarin_Calculator.Droid">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <application android:label="Xamarin_Calculator.Droid" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="Xamarin_Calculator" android:theme="@style/MainTheme" android:name="md54090d2ab39ac266de8fbeff8831ba5e7.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Xamarin_Calculator.Droid.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>
