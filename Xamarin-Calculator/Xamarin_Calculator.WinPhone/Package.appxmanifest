@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
 
-  <Identity Name="a6da103c-a1a2-40ae-8025-ceb5f119b742"
+  <Identity Name="f2ef0bec-5836-458b-ba31-4241f510de6b"
             Publisher="CN=보운"
             Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="a6da103c-a1a2-40ae-8025-ceb5f119b742" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="f2ef0bec-5836-458b-ba31-4241f510de6b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Xamarin_Calculator.WinPhone</DisplayName>

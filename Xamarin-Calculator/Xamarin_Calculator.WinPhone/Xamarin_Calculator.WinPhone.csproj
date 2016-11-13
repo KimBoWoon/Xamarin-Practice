@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D077BEC9-6F19-4287-B09F-06371B0F3E09}</ProjectGuid>
+    <ProjectGuid>{2C6C36A1-DD24-418A-B32D-71D48DCD7591}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Xamarin_Calculator.WinPhone</RootNamespace>
@@ -114,7 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xamarin_Calculator\Xamarin_Calculator.csproj">
-      <Project>{e8eb638e-6223-45da-8e64-19c04a2cb1b7}</Project>
+      <Project>{e7580b32-830f-4f81-b738-966f842a0311}</Project>
       <Name>Xamarin_Calculator</Name>
     </ProjectReference>
   </ItemGroup>

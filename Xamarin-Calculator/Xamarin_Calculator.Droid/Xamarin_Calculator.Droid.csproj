@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A1CA1B54-71C6-4F09-BBCC-7B3FA96BFF86}</ProjectGuid>
+    <ProjectGuid>{F8C624F7-7D43-41A2-B16F-A12FF5AF8828}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -134,7 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xamarin_Calculator\Xamarin_Calculator.csproj">
-      <Project>{e8eb638e-6223-45da-8e64-19c04a2cb1b7}</Project>
+      <Project>{e7580b32-830f-4f81-b738-966f842a0311}</Project>
       <Name>Xamarin_Calculator</Name>
     </ProjectReference>
   </ItemGroup>

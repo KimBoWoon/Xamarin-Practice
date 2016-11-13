@@ -12,26 +12,21 @@ namespace Xamarin_Calculator
         public App()
         {
             // The root page of your application
-            //var content = new ContentPage
-            //{
-            //    Title = "Xamarin_Calculator",
-            //    Content = new StackLayout
-            //    {
-            //        VerticalOptions = LayoutOptions.Center,
-            //        Children = {
-            //            new Label {
-            //                HorizontalTextAlignment = TextAlignment.Center,
-            //                Text = "Welcome to Xamarin Forms!"
-            //            }
-            //        }
-            //    }
-            //};
-
-            //MainPage = new NavigationPage(content);
-            var content = new View.Page1
+            var content = new ContentPage
             {
-                Title = "Hi"
+                Title = "Xamarin_Calculator",
+                Content = new StackLayout
+                {
+                    VerticalOptions = LayoutOptions.Center,
+                    Children = {
+                        new Label {
+                            HorizontalTextAlignment = TextAlignment.Center,
+                            Text = "Welcome to Xamarin Forms!"
+                        }
+                    }
+                }
             };
+
             MainPage = new NavigationPage(content);
         }
 

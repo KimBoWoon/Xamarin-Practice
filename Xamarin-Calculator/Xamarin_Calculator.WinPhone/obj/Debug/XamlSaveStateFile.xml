@@ -5,6 +5,5 @@
     <ReferenceAssembly PathName="d:\github\xamarin-practice\packages\xamarin.forms.2.2.0.45\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="068a3578-03d9-2580-f12e-c531e1d2d71c" />
     <ReferenceAssembly PathName="d:\github\xamarin-practice\packages\xamarin.forms.2.2.0.45\lib\wpa81\xamarin.forms.platform.winrt.phone.dll" HashGuid="52b59dd3-49ca-beb7-ea1e-5100cbca4812" />
     <ReferenceAssembly PathName="d:\github\xamarin-practice\packages\xamarin.forms.2.2.0.45\lib\wpa81\xamarin.forms.xaml.dll" HashGuid="39a2c026-b4e0-6e41-04bc-58950ef1ecfd" />
-    <ReferenceAssembly PathName="d:\github\xamarin-practice\xamarin-calculator\xamarin_calculator\bin\debug\xamarin_calculator.dll" HashGuid="69c724a9-abe6-6b9c-d58f-dacd03ebc271" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>
