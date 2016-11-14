@@ -27,3 +27,7 @@
 *.exe
 *.out
 *.app
+
+# other
+*.v12.suo
+.vs/*

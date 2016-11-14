@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
 
-  <Identity Name="1ff02eee-8c71-4f45-a849-89ac2fbe0027"
-            Publisher="CN=Null"
+  <Identity Name="ae315e0f-64c5-458d-8c61-acd597e25888"
+            Publisher="CN=보운"
             Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="1ff02eee-8c71-4f45-a849-89ac2fbe0027" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="ae315e0f-64c5-458d-8c61-acd597e25888" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Xamarin_Practice.WinPhone</DisplayName>
-    <PublisherDisplayName>Null</PublisherDisplayName>
+    <PublisherDisplayName>보운</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

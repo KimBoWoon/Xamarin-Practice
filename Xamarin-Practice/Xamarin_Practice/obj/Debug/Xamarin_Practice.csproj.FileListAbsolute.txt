@@ -1,0 +1,17 @@
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\bin\Debug\Xamarin_Practice.dll
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\bin\Debug\Xamarin_Practice.pdb
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\bin\Debug\Xamarin.Forms.Core.dll
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\bin\Debug\Xamarin.Forms.Platform.dll
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\bin\Debug\Xamarin.Forms.Core.pdb
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\bin\Debug\Xamarin.Forms.Core.xml
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\bin\Debug\Xamarin.Forms.Platform.pdb
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\obj\Debug\Xamarin_Practice.csprojResolveAssemblyReference.cache
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\obj\Debug\Xamarin_Practice.dll
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\obj\Debug\Xamarin_Practice.pdb
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\obj\Debug\Xamarin_Practice.dll.mdb
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\bin\Debug\Xamarin_Practice.dll.mdb
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\obj\Debug\Xamarin_Practice.dll.mdb
+D:\GitHub\Xamarin-Practice\Xamarin-Practice\Xamarin_Practice\bin\Debug\Xamarin_Practice.dll.mdb

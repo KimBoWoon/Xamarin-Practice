@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B09394FB-5982-4B4B-9F48-55D559ACE0AC}</ProjectGuid>
+    <ProjectGuid>{4F674A3D-EDB8-4059-9DFC-074C1250937A}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Xamarin_Practice.Windows</RootNamespace>
@@ -117,6 +117,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="packages.config" />
     <None Include="Windows_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -136,7 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xamarin_Practice\Xamarin_Practice.csproj">
-      <Project>{a450a0b6-4bbd-4ca0-bf5e-1b9c1502d027}</Project>
+      <Project>{46437dfb-90e8-41f4-8ae3-5cd6865273ab}</Project>
       <Name>Xamarin_Practice</Name>
     </ProjectReference>
   </ItemGroup>

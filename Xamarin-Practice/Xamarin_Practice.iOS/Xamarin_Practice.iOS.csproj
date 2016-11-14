@@ -5,12 +5,14 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C9114F01-59BF-444B-8A2B-99BDE3DC4FF0}</ProjectGuid>
+    <ProjectGuid>{C8D001B9-AF14-43D5-9F2A-51A3085CFAA9}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>Xamarin_Practice.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>Xamarin_Practice.iOS</AssemblyName>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -93,6 +95,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork@2x" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
@@ -136,7 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xamarin_Practice\Xamarin_Practice.csproj">
-      <Project>{a450a0b6-4bbd-4ca0-bf5e-1b9c1502d027}</Project>
+      <Project>{46437dfb-90e8-41f4-8ae3-5cd6865273ab}</Project>
       <Name>Xamarin_Practice</Name>
     </ProjectReference>
   </ItemGroup>

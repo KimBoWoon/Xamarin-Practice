@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
 
-  <Identity Name="1ff02eee-8c71-4f45-a849-89ac2fbe0027"
-            Publisher="CN=Null"
+  <Identity Name="ae315e0f-64c5-458d-8c61-acd597e25888"
+            Publisher="CN=보운"
             Version="1.0.0.0" />
 
   <Properties>
     <DisplayName>Xamarin_Practice.Windows</DisplayName>
-    <PublisherDisplayName>Null</PublisherDisplayName>
+    <PublisherDisplayName>보운</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
