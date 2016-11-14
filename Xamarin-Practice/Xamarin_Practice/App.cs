@@ -11,7 +11,11 @@ namespace Xamarin_Practice
     {
         public App()
         {
-            MainPage = new View.MainPage();
+            var content = new View.MainPage
+            {
+                Title="Practice"
+            };
+            MainPage = content;
         }
 
         protected override void OnStart()
