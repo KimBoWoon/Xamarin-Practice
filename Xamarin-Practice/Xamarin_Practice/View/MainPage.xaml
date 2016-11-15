@@ -5,13 +5,152 @@
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
              x:Class="Xamarin_Practice.View.MainPage">
 
-  <Label Text="{Binding DateTime,
-                        StringFormat='{0:T}'}"
-         FontSize="Large"
-         HorizontalOptions="Center"
-         VerticalOptions="Center">
-    <Label.BindingContext>
-      <local:Practice />
-    </Label.BindingContext>
-  </Label>
+  <Grid HorizontalOptions="Center"
+          VerticalOptions="Center">
+    <Grid.BindingContext>
+      <local:CalculatorViewModel />
+    </Grid.BindingContext>
+
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+
+    <!-- Internal Grid for top row of items -->
+    <Grid Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+
+      <Label Text="Value1 : "
+             Grid.Column="0" />
+      <Frame Grid.Column="1"
+             OutlineColor="Accent">
+        <Label Text="{Binding DisplayText1}" />
+      </Frame>
+    </Grid>
+
+    <!-- Internal Grid for top row of items -->
+    <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+
+      <Label Text="Value2 : "
+             Grid.Column="0" />
+      <Frame Grid.Column="1"
+             OutlineColor="Accent">
+        <Label Text="{Binding DisplayText2}" />
+      </Frame>
+    </Grid>
+
+    <!-- Internal Grid for top row of items -->
+    <Grid Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+
+      <Label Text="Result : "
+             Grid.Column="0" />
+      <Frame Grid.Column="1"
+             OutlineColor="Accent">
+        <Label Text="{Binding ResultDisplay}" />
+      </Frame>
+    </Grid>
+
+    <Button Text="1"
+            Command="{Binding AddCharCommand}"
+            CommandParameter="1"
+            Grid.Row="3" Grid.Column="0" />
+
+    <Button Text="2"
+            Command="{Binding AddCharCommand}"
+            CommandParameter="2"
+            Grid.Row="3" Grid.Column="1" />
+
+    <Button Text="3"
+            Command="{Binding AddCharCommand}"
+            CommandParameter="3"
+            Grid.Row="3" Grid.Column="2" />
+
+    <Button Text="4"
+            Command="{Binding AddCharCommand}"
+            CommandParameter="4"
+            Grid.Row="4" Grid.Column="0" />
+
+    <Button Text="5"
+            Command="{Binding AddCharCommand}"
+            CommandParameter="5"
+            Grid.Row="4" Grid.Column="1" />
+
+    <Button Text="6"
+            Command="{Binding AddCharCommand}"
+            CommandParameter="6"
+            Grid.Row="4" Grid.Column="2" />
+
+    <Button Text="7"
+            Command="{Binding AddCharCommand}"
+            CommandParameter="7"
+            Grid.Row="5" Grid.Column="0" />
+
+    <Button Text="8"
+            Command="{Binding AddCharCommand}"
+            CommandParameter="8"
+            Grid.Row="5" Grid.Column="1" />
+
+    <Button Text="9"
+            Command="{Binding AddCharCommand}"
+            CommandParameter="9"
+            Grid.Row="5" Grid.Column="2" />
+
+    <Button Text="CLS"
+            Command="{Binding ClaerCommand}"
+            CommandParameter="*"
+            Grid.Row="6" Grid.Column="0" />
+
+    <Button Text="0"
+            Command="{Binding AddCharCommand}"
+            CommandParameter="0"
+            Grid.Row="6" Grid.Column="1" />
+
+    <Button Text="NEXT"
+            Command="{Binding InputTextCommand}"
+            Grid.Row="6" Grid.Column="2" />
+
+    <Button Text="+"
+            Command="{Binding GetOperationCode}"
+            CommandParameter="+"
+            Grid.Row="3" Grid.Column="3" />
+
+    <Button Text="-"
+            Command="{Binding GetOperationCode}"
+            CommandParameter="-"
+            Grid.Row="4" Grid.Column="3" />
+
+    <Button Text="*"
+            Command="{Binding GetOperationCode}"
+            CommandParameter="*"
+            Grid.Row="5" Grid.Column="3" />
+
+    <Button Text="/"
+            Command="{Binding GetOperationCode}"
+            CommandParameter="/"
+            Grid.Row="6" Grid.Column="3" />
+
+    <Button Text="RESULT"
+            Command="{Binding GetCalculatorResult}"
+            Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="4" />
+  </Grid>
 </ContentPage>
