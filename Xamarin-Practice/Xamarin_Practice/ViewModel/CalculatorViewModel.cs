@@ -66,6 +66,10 @@ namespace Xamarin_Practice.ViewModel
                     default:
                         break;
                 }
+
+                InputString = "";
+                inputTextFlag = !inputTextFlag;
+                InputString = "";
             });
         }
 
