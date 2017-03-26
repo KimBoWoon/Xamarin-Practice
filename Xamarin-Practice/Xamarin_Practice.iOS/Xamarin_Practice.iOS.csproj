@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F8EB4F07-FB28-488E-88D9-928D06D24B3F}</ProjectGuid>
+    <ProjectGuid>{F61EB50E-C992-4C7C-BAD1-33DE4927E653}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>Xamarin_Practice.iOS</RootNamespace>
@@ -135,7 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xamarin_Practice\Xamarin_Practice.csproj">
-      <Project>{4255f0d6-b41e-4b38-9b99-8e98e493c242}</Project>
+      <Project>{1bd3b350-0bb1-4011-b570-2ad9e467e642}</Project>
       <Name>Xamarin_Practice</Name>
     </ProjectReference>
   </ItemGroup>

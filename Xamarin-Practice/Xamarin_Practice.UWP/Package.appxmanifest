@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="0d0d6091-3e21-41af-89f3-422b3622f68e"
+    Name="3b455f3f-1af1-4bde-b40a-dc30fadf9638"
     Publisher="CN=보운"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="0d0d6091-3e21-41af-89f3-422b3622f68e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="3b455f3f-1af1-4bde-b40a-dc30fadf9638" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Xamarin_Practice.UWP</DisplayName>

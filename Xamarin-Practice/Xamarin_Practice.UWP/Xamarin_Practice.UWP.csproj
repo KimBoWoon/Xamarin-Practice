@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{5A64369D-C905-4E2A-ABC7-D56C3C690B9B}</ProjectGuid>
+    <ProjectGuid>{7719371D-D8C1-4E45-AC2D-FEAFB63F23D2}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Xamarin_Practice.UWP</RootNamespace>
@@ -153,7 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xamarin_Practice\Xamarin_Practice.csproj">
-      <Project>{4255f0d6-b41e-4b38-9b99-8e98e493c242}</Project>
+      <Project>{1bd3b350-0bb1-4011-b570-2ad9e467e642}</Project>
       <Name>Xamarin_Practice</Name>
     </ProjectReference>
   </ItemGroup>
